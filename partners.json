@@ -1,0 +1,46 @@
+{
+  "partners": [
+      {
+          "name": "School A",
+          "type": "school",
+          "location": "New York, NY",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in urna et felis convallis pharetra.",
+          "contact": "Principal - John Doe"
+      },
+      {
+          "name": "Community Center B",
+          "type": "community",
+          "location": "San Francisco, CA",
+          "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
+          "contact": "Community Coordinator - Jane Smith"
+      },
+      {
+          "name": "Tech Solutions Inc.",
+          "type": "business",
+          "location": "Seattle, WA",
+          "description": "Sed vitae tortor eu arcu ultricies posuere. Curabitur ut semper ex. Nunc auctor hendrerit elit.",
+          "contact": "CEO - Mark Johnson"
+      },
+      {
+          "name": "Elementary School C",
+          "type": "school",
+          "location": "Boston, MA",
+          "description": "Integer facilisis vestibulum bibendum. Quisque vel justo eu lacus sollicitudin luctus vel vitae arcu.",
+          "contact": "Principal - Mary White"
+      },
+      {
+          "name": "Youth Development Center D",
+          "type": "community",
+          "location": "Houston, TX",
+          "description": "Donec vel elit bibendum, ullamcorper lectus sit amet, tincidunt elit. Nullam a dui id magna consequat luctus.",
+          "contact": "Program Director - Michael Davis"
+      },
+      {
+          "name": "Green Energy Solutions",
+          "type": "business",
+          "location": "Los Angeles, CA",
+          "description": "Vestibulum eu felis sit amet neque accumsan tincidunt. Nam dignissim mi ac metus efficitur, nec imperdiet risus vulputate.",
+          "contact": "CEO - Emily Green"
+      }
+  ]
+}

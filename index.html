@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>School Partners</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <style>
+        /* BEGIN: abpxx6d04wxr */
+        main {
+            margin-left: 60px;
+        }
+        /* END: abpxx6d04wxr */
+    </style>
+        <h1>Welcome to the School Partners Database</h1>
+        <p>Here you can find the latest school community and business partners.</p>
+
+        <div id="filter-container">
+            <label for="type-filter">Filter by Type:</label>
+            <select id="type-filter">
+                <option value="all">All</option>
+                <option value="school">School</option>
+                <option value="community">Community</option>
+                <option value="business">Business</option>
+            </select>
+        </div>
+
+        <div class="partner-list-grid" id="partner-list"></div>
+
+        <script src='app.js'></script>
+    </main>
+
+    <footer>
+        <p>&copy; HBCodes</p>
+    </footer>
+</body>
+</html>
