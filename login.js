@@ -10,9 +10,12 @@ async function attemptLogin() {
     const isValid = data.users.some(user => user.username === username && user.password === password);
 
     if (isValid) {
+        // Store the username in localStorage
+        localStorage.setItem('username', username);
         // Redirect to index.html on successful login
         window.location.href = 'index.html';
     } else {
         document.getElementById('login-error').textContent = 'Invalid username or password';
     }
 }
+

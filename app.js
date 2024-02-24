@@ -1,9 +1,4 @@
-// example function that alerts the user when the page is loaded
-// window.onload = function() {
-//   alert("Welcome to Coding Partnerships!");
-// };
-
-// example function that changes the text of a specific element when a button is clicked
+// Purpose: To render the partners.json data to the page and filter the data based on the type of partnership.
 function changeText() {
     document.getElementById("main-text").innerHTML = "Partnerships are now available!";
 }
