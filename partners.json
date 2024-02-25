@@ -1,46 +1,180 @@
 {
-  "partners": [
-    {
-      "name": "School A",
-      "type": "school",
-      "location": "New York, NY",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in urna et felis convallis pharetra.",
-      "contact": "Principal - John Doe"
-    },
-    {
-      "name": "Community Center B",
-      "type": "community",
-      "location": "San Francisco, CA",
-      "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.",
-      "contact": "Community Coordinator - Jane Smith"
-    },
-    {
-      "name": "Tech Solutions Inc.",
-      "type": "business",
-      "location": "Seattle, WA",
-      "description": "Sed vitae tortor eu arcu ultricies posuere. Curabitur ut semper ex. Nunc auctor hendrerit elit.",
-      "contact": "CEO - Mark Johnson"
-    },
-    {
-      "name": "Elementary School C",
-      "type": "school",
-      "location": "Boston, MA",
-      "description": "Integer facilisis vestibulum bibendum. Quisque vel justo eu lacus sollicitudin luctus vel vitae arcu.",
-      "contact": "Principal - Mary White"
-    },
-    {
-      "name": "Youth Development Center D",
-      "type": "community",
-      "location": "Houston, TX",
-      "description": "Donec vel elit bibendum, ullamcorper lectus sit amet, tincidunt elit. Nullam a dui id magna consequat luctus.",
-      "contact": "Program Director - Michael Davis"
-    },
-    {
-      "name": "Green Energy Solutions",
-      "type": "business",
-      "location": "Los Angeles, CA",
-      "description": "Vestibulum eu felis sit amet neque accumsan tincidunt. Nam dignissim mi ac metus efficitur, nec imperdiet risus vulputate.",
-      "contact": "CEO - Emily Green"
-    }
-  ]
-}
+    "partners": [
+      {
+        "name": "Ontario School of Excellence",
+        "type": "school",
+        "location": "Toronto, ON",
+        "description": "A premier educational institution offering comprehensive learning programs. We foster academic excellence and holistic development.",
+        "contact": "Principal - Sarah Johnson"
+      },
+      {
+        "name": "Community Hub Toronto",
+        "type": "community",
+        "location": "Toronto, ON",
+        "description": "A vibrant space dedicated to fostering community engagement, empowerment, and cultural exchange.",
+        "contact": "Community Coordinator - David Chen"
+      },
+      {
+        "name": "Tech Innovations Toronto",
+        "type": "business",
+        "location": "Toronto, ON",
+        "description": "A leading technology firm specializing in innovative solutions tailored to meet the evolving needs of businesses.",
+        "contact": "CEO - Samantha Lee"
+      },
+      {
+        "name": "Maple Leaf Elementary",
+        "type": "school",
+        "location": "Ottawa, ON",
+        "description": "Committed to providing a nurturing environment where every child can flourish academically and personally.",
+        "contact": "Principal - James Smith"
+      },
+      {
+        "name": "Youth Empowerment Center Ottawa",
+        "type": "community",
+        "location": "Ottawa, ON",
+        "description": "Dedicated to empowering youth through education, mentorship, and community outreach initiatives.",
+        "contact": "Program Director - Emma Thompson"
+      },
+      {
+        "name": "EcoTech Solutions Ontario",
+        "type": "business",
+        "location": "Mississauga, ON",
+        "description": "A pioneer in sustainable technology solutions aimed at reducing environmental impact and fostering green practices.",
+        "contact": "CEO - Alexander Brown"
+      },
+      {
+        "name": "Oakville Academy",
+        "type": "school",
+        "location": "Oakville, ON",
+        "description": "Where academic excellence meets individualized learning, shaping tomorrow's leaders with a focus on creativity and innovation.",
+        "contact": "Principal - Jennifer Wilson"
+      },
+      {
+        "name": "Community Care Network",
+        "type": "community",
+        "location": "Hamilton, ON",
+        "description": "Committed to enhancing the well-being of individuals and families through comprehensive support services and advocacy.",
+        "contact": "Community Outreach Coordinator - Michael Roberts"
+      },
+      {
+        "name": "Innovate IT Solutions",
+        "type": "business",
+        "location": "Waterloo, ON",
+        "description": "Your partner in digital transformation, delivering cutting-edge IT solutions tailored to your business needs.",
+        "contact": "CEO - Daniel Garcia"
+      },
+      {
+        "name": "Sunshine Elementary School",
+        "type": "school",
+        "location": "London, ON",
+        "description": "Where every child shines bright! Nurturing young minds and fostering a love for learning in a supportive environment.",
+        "contact": "Principal - Olivia Davis"
+      },
+      {
+        "name": "Youth Empowerment Initiative",
+        "type": "community",
+        "location": "Windsor, ON",
+        "description": "Empowering youth to reach their full potential through education, leadership development, and community involvement.",
+        "contact": "Program Director - Andrew Thompson"
+      },
+      {
+        "name": "GreenTech Innovations",
+        "type": "business",
+        "location": "Markham, ON",
+        "description": "At the forefront of green technology, developing innovative solutions to address environmental challenges and promote sustainability.",
+        "contact": "CEO - Sophia Roberts"
+      },
+      {
+        "name": "Harmony Elementary School",
+        "type": "school",
+        "location": "Brampton, ON",
+        "description": "Fostering harmony and academic excellence through a supportive learning environment that celebrates diversity and inclusivity.",
+        "contact": "Principal - Ethan Clark"
+      },
+      {
+        "name": "Community Connections",
+        "type": "community",
+        "location": "Sudbury, ON",
+        "description": "Building strong, connected communities through collaboration, resource-sharing, and grassroots initiatives.",
+        "contact": "Community Engagement Coordinator - Jessica Baker"
+      },
+      {
+        "name": "Digital Dynamics",
+        "type": "business",
+        "location": "Barrie, ON",
+        "description": "Driving digital innovation through dynamic solutions designed to propel businesses into the future.",
+        "contact": "CEO - Matthew Turner"
+      },
+      {
+        "name": "North Star Elementary School",
+        "type": "school",
+        "location": "Thunder Bay, ON",
+        "description": "Guiding students towards excellence, igniting curiosity, and nurturing a passion for lifelong learning.",
+        "contact": "Principal - Hannah Martin"
+      },
+      {
+        "name": "Youth Empowerment Network",
+        "type": "community",
+        "location": "Niagara Falls, ON",
+        "description": "Connecting youth with opportunities for growth, leadership, and positive community impact.",
+        "contact": "Program Director - Lucas Anderson"
+      },
+      {
+        "name": "FutureTech Solutions",
+        "type": "business",
+        "location": "Richmond Hill, ON",
+        "description": "Pioneering future-focused technology solutions that drive efficiency, innovation, and sustainable growth.",
+        "contact": "CEO - Isabella Taylor"
+      },
+      {
+        "name": "Lakeside Elementary School",
+        "type": "school",
+        "location": "Kingston, ON",
+        "description": "Where learning meets adventure! Inspiring students to explore, discover, and achieve their full potential.",
+        "contact": "Principal - Noah Carter"
+      },
+      {
+        "name": "Community Catalyst",
+        "type": "community",
+        "location": "Guelph, ON",
+        "description": "Catalyzing positive change through community-driven initiatives, collaboration, and empowerment.",
+        "contact": "Community Development Coordinator - Sophia Turner"
+      },
+      {
+        "name": "TechGenius Solutions",
+        "type": "business",
+        "location": "Kitchener, ON",
+        "description": "Your partner in tech excellence! Providing innovative solutions to drive your business forward.",
+        "contact": "CEO - Ethan Wilson"
+      },
+      {
+        "name": "Riverfront Elementary School",
+        "type": "school",
+        "location": "Belleville, ON",
+        "description": "Where education flows like a river, nurturing young minds and fostering a lifelong love for learning.",
+        "contact": "Principal - Ava Roberts"
+      },
+      {
+        "name": "Youth Outreach Initiative",
+        "type": "community",
+        "location": "Peterborough, ON",
+        "description": "Empowering youth through mentorship, education, and advocacy to create positive change in their communities.",
+        "contact": "Program Director - Benjamin Thompson"
+      },
+      {
+        "name": "EcoVision Solutions",
+        "type": "business",
+        "location": "Hamilton, ON",
+        "description": "Visionary solutions for a sustainable future. Harnessing innovation to protect our planet.",
+        "contact": "CEO - Mia Garcia"
+      },
+      {
+        "name": "Discovery Elementary School",
+        "type": "school",
+        "location": "Vaughan, ON",
+        "description": "Where every student's journey of discovery begins! Inspiring curiosity, creativity, and academic excellence.",
+        "contact": "Principal - Liam Johnson"
+      }
+    ]
+  }
+  
