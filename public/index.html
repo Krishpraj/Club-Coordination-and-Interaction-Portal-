@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>School Partners</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li id="username-display"></li> <!-- Placeholder for username display -->
+                <li id="add-info-tab" style="display: none;"><a href="#" id="add-info-link">Add Info</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <style>
+        /* BEGIN: abpxx6d04wxr */
+        main {
+            margin-left: 60px;
+        }
+        /* END: abpxx6d04wxr */
+    </style>
+        <h1>Welcome to the School Partners Database</h1>
+        <p>Here you can find the latest school community and business partners.</p>
+
+        <!-- Add a div to display user status -->
+        <div id="user-status"></div>
+
+        <script>
+            // Get user status from localStorage
+            const userStatus = localStorage.getItem('status');
+
+            // Display user status
+            document.getElementById('user-status').textContent = `Status: ${userStatus}`;
+        </script>
+
+        <!-- Container for the greeting message -->
+        <div id="greeting-container"></div>
+
+        <div id="filter-container">
+            <label for="type-filter">Filter by Type:</label>
+            <select id="type-filter">
+                <option value="all">All</option>
+                <option value="school">School</option>
+                <option value="community">Community</option>
+                <option value="business">Business</option>
+            </select>
+        </div>
+
+        <div class="partner-list-grid" id="partner-list"></div>
+
+        <section id="add-info-section" style="display: none;">
+            <!-- Form to add a new partner card -->
+            <form id="add-partner-form" class="partner-form">
+                <label for="partner-name">Name:</label>
+                <input type="text" id="partner-name" class="form-input" required><br>
+                
+                <label for="partner-type">Type:</label>
+                <select id="partner-type" class="form-input" required>
+                    <option value="school">School</option>
+                    <option value="community">Community</option>
+                    <option value="business">Business</option>
+                </select><br>
+                
+                <label for="partner-location">Location:</label>
+                <input type="text" id="partner-location" class="form-input" required><br>
+                
+                <label for="partner-description">Description:</label>
+                <textarea id="partner-description" class="form-input" rows="4" required></textarea><br>
+                
+                <label for="partner-contact">Contact:</label>
+                <input type="text" id="partner-contact" class="form-input" required><br>
+                
+                <button type="submit" class="submit-button">Add Partner</button>
+            </form>
+        </section>
+        
+        
+
+        <script src='client.js'></script>
+        <script>
+                const username = localStorage.getItem('username');
+            if (username) {
+                // If username exists, display it
+                document.getElementById('username-display').innerHTML = `<span style="color: blue;">${username}</span>`;
+            } else {
+                // If no username found, redirect to login page
+                window.location.href = 'login.html';
+            }
+
+            // Check if user is admin and show/hide "Add Info" tab and section accordingly
+            if (userStatus === 'admin') {
+                document.getElementById('add-info-tab').style.display = 'block';
+                document.getElementById('add-info-section').style.display = 'block';
+            }
+
+            // Add functionality to the "Add Info" tab link
+            document.getElementById('add-info-link').addEventListener('click', function(event) {
+                event.preventDefault(); // Prevent default link behavior
+                // Show the "Add Info" section and hide other sections if necessary
+                document.getElementById('add-info-section').style.display = 'block';
+                // Hide other sections if necessary
+            });
+
+            
+        </script>
+    </main>
+
+    <footer>
+        <p>&copy; 2021 HB School Partners</p>
+    </footer>
+</body>
+</html>
