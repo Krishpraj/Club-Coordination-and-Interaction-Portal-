@@ -12,7 +12,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Root route handler - Redirect to login.html
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public', 'login.html'));
+    res.sendFile(path.join(__dirname, 'public', '/login.html'));
+});
+
+// Root route handler - Redirect to login.html
+app.get('/', (req, res) => {
+    res.redirect('/login.html');
 });
 
 app.get('/partners', (req, res) => {
