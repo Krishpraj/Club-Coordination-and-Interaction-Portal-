@@ -1,4 +1,5 @@
 # School Partners Database
+# Created by Kushal
 
 Welcome to the School Partners Database project! This project provides a platform where users can find the latest information about school, community, and business partnerships.
 
