@@ -5,6 +5,10 @@ Welcome to the School Partners Database project! This project provides a platfor
 
 ## Features
 
+https://github.com/user-attachments/assets/75acb312-0f86-4fe4-8175-45503e443ef7
+
+
+
 - **Homepage:** Displays information about the School Partners Database and provides access to partner listings.
 - **Partner Listings:** Displays a list of school, community, and business partners.
 - **Filtering:** Allows users to filter partner listings by type (school, community, business).
